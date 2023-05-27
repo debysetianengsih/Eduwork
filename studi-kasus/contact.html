@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Checkout Barang</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+        <style type="text/css">
+            /* mengatur tombol button diheader */
+            a {
+                color: white;
+                cursor: pointer;
+                font-family: arial;
+                text-align: right;
+                text-decoration: none;
+            }
+            /* mengatur efek perubahan tombol button diheader */
+            a:hover {
+                color: black;
+            }
+            /* mengatur Form checkout */
+            .contactForm
+            {
+                width: 40%;
+                padding: 40px;
+                background: #fff;
+            }
+            .contactForm h2
+            {
+                font-size: 30px;
+                color: #333;
+                font-weight: 500;
+            }
+            .contactForm .inputBox
+            {
+                position: relative;
+                width: 100%;
+                margin-top: 10px;
+            }
+            .contactForm .inputBox input,
+            .contactForm .inputBox textarea
+            {
+                width: 100%;
+                padding: 5px 0;
+                font-size: 16px;
+                margin: 10px 0;
+                border: none;
+                border-bottom: 2px solid #333;
+                outline: none;
+            }
+            .contactForm .inputBox span
+            {
+                position: absolute;
+                left: 0;
+                padding: 5px 0;
+                font-size: 16px;
+                margin: 10px 0;
+                pointer-events: none;
+                transition: 0.5s;
+                color: #666;
+            }
+            .contactForm .inputBox input:focus - span,
+            .contactForm .inputBox input:valid - span,
+            .contactForm .inputBox textarea:focus - span,
+            .contactForm .inputBox textarea:valid - span
+            
+            
+            {
+                color: #e91e63;
+                font-size: 12px;
+                transform: translate(-20px);
+            }
+            .contactForm .inputBox input[type="submit"]
+            {
+                width: 100px;
+                background: #00bcd4;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+                padding: 10px;
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body style= "margin : 0";>
+        <table border="0" cellpadding="0" cellspacing="0">
+            <!--Membuat tampilan button header-->
+            <tr style="background-color: DodgerBlue;">
+                <th width="500px" height="40px">
+                    <h2 face="Arial" align="center"><b>SHOES.iD</b></h2>
+                </th>
+                <th width="100px">
+                    <a href="index.html">Home</a>
+                </th>
+                <th width="100px">
+                    <a href="index.php">Data Shoes</a>
+                </th>
+                <th width="100px">
+                    <a href="about.html">About</a>
+                </th>
+                <th width="100px">
+                    <a href="contact.html">Contact</a>
+                </th>
+                <th width="500px"></th>
+            </tr>
+            <!--Membuat Gambar Sampul header-->
+            <tr>
+                <td colspan="6">
+                    <h2 style="text-align: center;">SHOES.iD</h2>
+                        <div class="col-md-6">
+                        <p align="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, null  a magnam porro minima offici is! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam, itaque, nesciunt similique commodiom nis. Ad magni perspiciatis, voluptatum repellat.</p>    
+                        <p align="center">Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim commodi iusto libero magni deleniti quod quam consequuntur! Commodi minima excepturi repudiandae velit hic maximedoloremque. Quaerat provident commodi consectetur veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantiummodi minima sunt esse temporibus sint culpa, recusandae aliquam numquam totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!</p>
+                        </div>   
+                        <div>
+                            <center>
+                        <div class="address details">
+                            <i class="fas fa-map-marker-alt">Jl. tlogosari kulon, No.246 semarang city</i>
+                            <i class="fas fa-phone-alt">+098 9893 5647</i>
+                            <i class="fab fa-instagram-square">shoes_id</i>
+                        </div>
+                    </center>    
+                        </div> 
+                <!--membuat form contact-->    
+                    <div class="contactForm">
+                <form>
+                    <h2> MY CONTACT</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Nama</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Telpon</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Alamat</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Pesan:...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>     
+                </td>
+            </tr>
+            <tr>
+                 <td colspan="6">
+                     
+                </td>
+            </tr>
+            <!--Membuat Tampilan Footer-->
+            <tr style="background-color: MidnightBlue;">
+                <th colspan="6" height="31px">
+                    <font size="3" color="white">
+                        copyright &copy;2023 Studi-Kasus. by <span>Deby Setianengsih</span>
+                    </font>
+                </th>
+            </tr>
+        </table>
+    </body>
+</html>
