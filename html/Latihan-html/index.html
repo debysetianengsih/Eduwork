@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Latihan HTML</title>
+        <style type="text/css">
+            /* mengatur tombol button diheader */
+            a {
+                color: white;
+                cursor: pointer;
+                font-family: arial;
+                text-align: center;
+                text-decoration: none;
+            }
+            /* mengatur efek perubahan tombol button diheader */
+            a:hover {
+                color: black;
+            }
+            /* mengatur jarak tinggi baris */
+            .jarak { 
+                font-size:16px; line-height: 1.5em;
+            }
+        </style>
+    </head>
+    <body style= "margin : 0";>
+        <table border="0" cellpadding="0" cellspacing="0">
+            <!--Membuat tampilan button header-->
+            <tr style="background-color: #F5B041;">
+                <th width="500px" height="40px"></th>
+                <th width="100px">
+                    <a >Home</a>
+                </th>
+                <th width="100px">
+                    <a >Menu</a>
+                </th>
+                <th width="100px">
+                    <a >About</a>
+                </th>
+                <th width="100px">
+                    <a >Contact</a>
+                </th>
+                <th width="500px"></th>
+            </tr>
+            <!--Membuat Gambar Sampul header-->
+            <tr>
+                <td colspan="6">
+                    <img src="a.png" width="100%">
+                </td>
+            </tr>
+            <!--Membuat Tampilan Deskripsi Isi-->
+            <tr>
+                <td colspan="5" height="150px">
+                    <ul>
+                        <h2 face="Arial" color="black">
+                            <b>Tugas HTML</b>
+                        </h2>
+                        <hr width="30%" align="left">
+                        <p class="jarak" align="justify">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br>
+                        </p>
+                    </ul>
+                </td>
+                <th>
+                    <img src="b.jpg" width="200px">
+                </th>
+            </tr>
+            <!--Membuat Tampilan Footer-->
+            <tr style="background-color: #F5B041;">
+                <th colspan="6" height="30px">
+                    <font size="3" color="white">
+                       Eduwork &copy; 2023 Full Stack Web Development
+                    </font>
+                </th>
+            </tr>
+        </table>
+    </body>
+</html>
