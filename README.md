@@ -1,2 +1,5 @@
-# eduwork-msib
-Kumpulan file tugas, praktikum individu maupun kelompok 
+eduwork-msib
+- file tugas
+- file praktikum
+- file studi kasus
+- file final project
